@@ -1,5 +1,8 @@
 # Test Data for EN-LDA-FGKM #
 
+This is a repo holding the test data for EN-LDA-FGKM (elf).  All the
+data sets are real-life text data.
+
 ## Data Source ##
 
 * D1--D4 (d1-d4.rda) are derived from
