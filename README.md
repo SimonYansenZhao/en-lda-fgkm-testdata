@@ -85,11 +85,12 @@ All data sets are processed and stored using [R](https://www.r-project.org/).
 [1] 0 1
 ```
 
-Every data set is a list of *corpus*, *label* and *vocab*.  A element
-in *corpus* represents a document.  The category a document belongs to
-is given in *label*.  *vocab* lists all the unique words in *corpus*.
-A document in *corpus* is a two-row matrix, where a column represents
-a unique word in the document.  The first row is the index of the word
-in *vocab*, and the second row is the tf (term frequency) of the word.
-For example, `d1$corpus[[1]][, 1]` tells the word "series" occurs once
-in the first document.
+Every data set is a list of **corpus**, **label** and **vocab**.  A
+element in **corpus** represents a document.  The category a document
+belongs to is given in **label**.  **vocab** lists all the unique
+words in **corpus**.  A document in **corpus** is represented as a
+two-row matrix, where a column represents a unique word in the
+document.  The first row is the index of the word in **vocab**, and
+the second row is the *tf* (term frequency) of the word.  For example,
+`d1$corpus[[1]][, 1]` tells the word "series" occurs once in the first
+document.
